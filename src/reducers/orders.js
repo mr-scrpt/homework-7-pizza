@@ -43,7 +43,7 @@ export default (state = [], action) => {
           return order;
         }
       });
-      break;
+
 
     case MOVE_ORDER_BACK :
       return state.map(order => {
@@ -62,7 +62,7 @@ export default (state = [], action) => {
           return order;
         }
       });
-      break;
+
     case ADD_INGREDIENT:
       return state.map(order=> {
 
@@ -73,7 +73,7 @@ export default (state = [], action) => {
           return order;
         }
       });
-      break;
+
 
 
     default:
